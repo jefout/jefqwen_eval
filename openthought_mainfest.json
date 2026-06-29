@@ -1,0 +1,2950 @@
+{
+    "version": "v4-seq-packed-merged",
+    "schema_version": "ingest.v1",
+    "created": "2026-06-26T12:34:24Z",
+    "updated": "2026-06-26T12:34:24Z",
+    "status": "completed",
+    "tokenizer": "jefout/6_29_base",
+    "dtype": "uint32",
+    "source": "open-thoughts/OpenThoughts3-1.2M",
+    "tokenization_mode": "seq_packed_shards",
+    "distributed_run_id": "openthoughts3-20260626",
+    "total_tokens": 18726714484,
+    "total_shards": 350,
+    "source_files": 120,
+    "shard_prefix": "dataset/openthoughts3-1.2m/shards/",
+    "part_manifests": [
+      "dataset/openthoughts3-1.2m/parts/openthoughts3-20260626/part-000/manifest.json"
+    ],
+    "part_summaries": [
+      {
+        "key": "dataset/openthoughts3-1.2m/parts/openthoughts3-20260626/part-000/manifest.json",
+        "status": "completed",
+        "total_shards": 350,
+        "total_tokens": 18726714484,
+        "failed_files": 0
+      }
+    ],
+    "shards": [
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000003.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "79b9150f6abf7d1f26e8f9ab21aa199cab946936444f17ac6a58d394c4264633",
+        "source_file": "data/train-00000-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000017.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "f95b3360414758f60339d583fc4417fc546b65bebb625dfd5846d67ce959173b",
+        "source_file": "data/train-00000-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000031.npy",
+        "n_tokens": 27056127,
+        "size_bytes": 108224636,
+        "sha256": "0620b39994cd6ad3a39aafa668650329016697cb7bd08c513b14a4aba1812cc6",
+        "source_file": "data/train-00000-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000008.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "9afd24fdd62f092efaf079ef41a2b2ec6e23533c7195ea96232f900595f51e1f",
+        "source_file": "data/train-00001-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000018.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c38d275fdf39b41b926ec81f3d5caa342d5900b962fff44af8397e1e4f0774f4",
+        "source_file": "data/train-00001-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000029.npy",
+        "n_tokens": 27136579,
+        "size_bytes": 108546444,
+        "sha256": "76344ebbcab6ae06fcc939fac1a128ba2c05eba0c7e52d5430c8c35f212cf0da",
+        "source_file": "data/train-00001-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000005.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "2cf042c9954aca139f1266f0a757b583ad65fc35e67f23d5a41e09259e8efe0a",
+        "source_file": "data/train-00002-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000014.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d6a6e7e41d190281cd424275910a0049c0530f13248dabff14bea785c4a92506",
+        "source_file": "data/train-00002-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000026.npy",
+        "n_tokens": 27493134,
+        "size_bytes": 109972664,
+        "sha256": "4ec6409c7019c6f6d3d0e5fdb28c3adf639a9aa13f933a81dbdab9a159df4a69",
+        "source_file": "data/train-00002-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000011.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "7cad0d5b08294cee3f27af55c2c06aee418c102379a12854ff5bfc2bc8969331",
+        "source_file": "data/train-00003-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000019.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "52cfbcfd6835322e97068e7e7d6b0d5330d7bfdb89c13b1e3b760e6773d5ffa9",
+        "source_file": "data/train-00003-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000030.npy",
+        "n_tokens": 27766695,
+        "size_bytes": 111066908,
+        "sha256": "1f6798c6ef2d271b65091567817656f59196aa6fa3620b70483a5b7f83ab863d",
+        "source_file": "data/train-00003-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000006.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b085b66e25139364d6a78c7dead9d9dda1b84fba74d793e360cfa01a8af18105",
+        "source_file": "data/train-00004-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000021.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4a74adea4fa3f91a8db7eb35716c1310b773534d625c80a92a80de23c4392532",
+        "source_file": "data/train-00004-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000034.npy",
+        "n_tokens": 27344566,
+        "size_bytes": 109378392,
+        "sha256": "a9abc54f73f9bd613e13be63b19f674cf66322f15ab495e43be0cce8ded84ad9",
+        "source_file": "data/train-00004-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000000.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "bff7841597acc83c1e2cc675dd8cda4e345b08aa73805581018ce0b777b5034a",
+        "source_file": "data/train-00005-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000013.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "9b34050cff11e6dba230ef4845f253150cfd63f6feff5fbc875def3f6500192e",
+        "source_file": "data/train-00005-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000025.npy",
+        "n_tokens": 27658128,
+        "size_bytes": 110632640,
+        "sha256": "0feaa3efe3a3f4092a457eb224f3925b7826d183305108ecc408ed4763ee5e9d",
+        "source_file": "data/train-00005-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000009.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "abfb9a3695e7faf222390eacb82a6c61888cf9811a58a0cd3bea6fa96b1f69b8",
+        "source_file": "data/train-00006-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000022.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ed2d4c35943b1f0b7d45e964a24d89d85f91221b38b5e504a5fde1cc6b43b858",
+        "source_file": "data/train-00006-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000033.npy",
+        "n_tokens": 27021813,
+        "size_bytes": 108087380,
+        "sha256": "08f649058460e77b660d6a2bf44f6302b5b36d2b2d294fbb6aa86228b4851d24",
+        "source_file": "data/train-00006-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000002.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "9e710b1248b98d8c9c51a33e6033745082103b0f6032ac1275bc443df9a5a11d",
+        "source_file": "data/train-00007-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000023.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "64de707631b55dff24b46fd320f2fb26237baf53b3491159b55f5578c7d43163",
+        "source_file": "data/train-00007-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000035.npy",
+        "n_tokens": 27502960,
+        "size_bytes": 110011968,
+        "sha256": "522f9c6a35ea33bd2fb3620914f5225edc2fad94bdb42c44fcf3a18576d5006d",
+        "source_file": "data/train-00007-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000010.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "515b9e72798f075e2212f8387b76749fbb1ebe77fd00c4cff052369c6a4b4539",
+        "source_file": "data/train-00008-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000020.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "e74b3677f126a77010a8f547bd2f46f7d70bec57654fa2a467248c754d02f152",
+        "source_file": "data/train-00008-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000032.npy",
+        "n_tokens": 27356678,
+        "size_bytes": 109426840,
+        "sha256": "454f59fc0237c47d30fd2cbb36cde321317efd434784930d0e07c130e84dacf6",
+        "source_file": "data/train-00008-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000004.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4e034441fb2a10942fc4b48742c1dfd7c83ec08266b5eeb001ac551bb9428e20",
+        "source_file": "data/train-00009-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000012.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "0b0d1e81e74ec0bbe82af1965bfc9c71ccca0b050d598ea79b28b3cbb5b128db",
+        "source_file": "data/train-00009-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000024.npy",
+        "n_tokens": 27528695,
+        "size_bytes": 110114908,
+        "sha256": "d942f51cdeaa5d335deca2345cbda37f85c0bd5d8e88363c9ec126dc6cb15f68",
+        "source_file": "data/train-00009-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000007.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1a6a1be9cfbdee42e6420f1827f751249a8b4f6d3173e6c61b9b1791e09bb79a",
+        "source_file": "data/train-00010-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000016.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6775ddf253e433b991a91fe4b1ec20745841e84411a2dc3d4013e98db72962cd",
+        "source_file": "data/train-00010-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000027.npy",
+        "n_tokens": 27471291,
+        "size_bytes": 109885292,
+        "sha256": "5bb49a6f1f769b141b8ac8416b34698c842a849ffb38e60ce907e3f974f1a4a0",
+        "source_file": "data/train-00010-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000001.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "935a2de386055e0a2b396eeaa386c82ab8ed2bb2d2e9f70c0a0a516d18ab5cc7",
+        "source_file": "data/train-00011-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000015.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "fc6e01acfebc56c1a6548d6f90bbea4cc8f6e53ce205d94101bb900cbb94991e",
+        "source_file": "data/train-00011-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000028.npy",
+        "n_tokens": 27104258,
+        "size_bytes": 108417160,
+        "sha256": "c4008aaf9a435e2d17ff2a639fb5839e1e1c5601f73b7afccb92430bfea7924f",
+        "source_file": "data/train-00011-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000037.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "cf81f35d69936b48aef8529ba10c690ef2d336c3a22a49517ea0b57ab5b230f1",
+        "source_file": "data/train-00012-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000049.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ff15e53f1eae2a9cdc6886072a5c3395487bc2a34cc0640683ba88adea9eaba6",
+        "source_file": "data/train-00012-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000061.npy",
+        "n_tokens": 27194873,
+        "size_bytes": 108779620,
+        "sha256": "fcb3c28f8e3db6e29027df6d51626b28425be850d4ff095b035122c8a609e6a0",
+        "source_file": "data/train-00012-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000038.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "122d623abd4c8a9ad125e6d6c601eb79176ddaac98aa31c7ebf21957c768f377",
+        "source_file": "data/train-00013-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000050.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "5b4b8b98707c41e539e51cad30114223593f40934c4653af509f253321a1935a",
+        "source_file": "data/train-00013-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000062.npy",
+        "n_tokens": 27154933,
+        "size_bytes": 108619860,
+        "sha256": "cb513c83dfb7b92714f5f095305de56c31945ce1dbb5f88b591202f47e6ac0b6",
+        "source_file": "data/train-00013-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000036.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "659dcacd729894b887f7e6c3053d5b27d9fc7ae899a9eea19e9f342ec2e44e05",
+        "source_file": "data/train-00014-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000048.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "47c175f3b123ca01832be55409a2b5ff99f91b66485b31c8ccc387458c5ef342",
+        "source_file": "data/train-00014-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000060.npy",
+        "n_tokens": 27216712,
+        "size_bytes": 108866976,
+        "sha256": "ed6f44c09111a22aa6c37908bf239d4d65d897583a8f65f440402c2a6d6c41f2",
+        "source_file": "data/train-00014-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000040.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "70344577a6dee2b9f59db0542aa0096457c4d4f255e0b5fc53324d7f48182640",
+        "source_file": "data/train-00015-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000051.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "433e5b99113453ca1c241a6f7a8052b3e2ff6aaa4fa68b90df88ec7fc9d8a410",
+        "source_file": "data/train-00015-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000063.npy",
+        "n_tokens": 27121508,
+        "size_bytes": 108486160,
+        "sha256": "e90028d85cfb2f15bc95479d2260b213a806d559dcf6fdd957597ba40aee90b7",
+        "source_file": "data/train-00015-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000043.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c70d9326297cfadac2305c0d920349e39b41372bb163f5c6d0c5f3b23a841033",
+        "source_file": "data/train-00016-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000052.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "788b4441c56777f60b5f70acee9c97298b3b772290978c23a80c56abb8477f0e",
+        "source_file": "data/train-00016-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000065.npy",
+        "n_tokens": 27252366,
+        "size_bytes": 109009592,
+        "sha256": "5e3d3d302ade46d39087b14fef6028314bf306ac7f614f035de9103afe3c23c1",
+        "source_file": "data/train-00016-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000044.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1cfb10d38562a0ae8835c711fdfc1ce86ac75223fa2551c7d5e1b7fe1e62656c",
+        "source_file": "data/train-00017-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000056.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "14a2a19088aaae50d83ebd50365883abade432e0939408c371823b62031a1a4f",
+        "source_file": "data/train-00017-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000067.npy",
+        "n_tokens": 27617695,
+        "size_bytes": 110470908,
+        "sha256": "bc4a04d2a930594b9907b0cd95744029606e182d00de75925d31ef7b402aac28",
+        "source_file": "data/train-00017-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000045.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1406e80ba93d3d20640cdfc2e3818e76f5a45e36efeccd68c79b8b852a54eaa7",
+        "source_file": "data/train-00018-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000053.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b229054959700fc2c5a96966daa48f6f766c9c7c74e6f1b9aabecc94671a028e",
+        "source_file": "data/train-00018-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000066.npy",
+        "n_tokens": 26985313,
+        "size_bytes": 107941380,
+        "sha256": "7df5d27d8c6d7182f815e46baead15792c3f223b3762ce9dfe2c0530bb1f19a4",
+        "source_file": "data/train-00018-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000042.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "f689c7a1aeeb579ebed66eb52600674591848dc851297b1f36cdbac35d2f1fda",
+        "source_file": "data/train-00019-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000055.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "159c54bcca1725e2af60c4d4ceb1c4ab5c8c7678be0051b7312fb5551fba7d7b",
+        "source_file": "data/train-00019-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000068.npy",
+        "n_tokens": 27450250,
+        "size_bytes": 109801128,
+        "sha256": "d08d21e9808463c8df74d4f54b769c2bdc5582048f1596ba0b3f9665c7d8c19a",
+        "source_file": "data/train-00019-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000041.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "22dce5121f3d17193ab416d19d5e632a9a10d0f40c0dafcb8e95e19efcb241eb",
+        "source_file": "data/train-00020-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000054.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "fa4b317e68de3f8e6a430af4139c57a9fb640450bf6a01fba40ed250b8a0b10f",
+        "source_file": "data/train-00020-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000064.npy",
+        "n_tokens": 27393139,
+        "size_bytes": 109572684,
+        "sha256": "180ccef9f6f6460c0810a05232687d616dd225caea8334b76606a26118f6ac3f",
+        "source_file": "data/train-00020-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000039.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4a8bd71adc28fcb0f0b2dd53c4c4b593c3c36d6f7c8d025eae5232106d5492a8",
+        "source_file": "data/train-00021-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000058.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "81295f2362da474ea69245ed6ca601cf774e61a896697e6cce76c1b1c5c3bbed",
+        "source_file": "data/train-00021-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000070.npy",
+        "n_tokens": 27519660,
+        "size_bytes": 110078768,
+        "sha256": "c23072c7eb856568905eee375d0818bddf895b28b19875f4d0cb5aeb10c9208a",
+        "source_file": "data/train-00021-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000046.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "7f9a1e88bc3a1e54828e79399d89162d2c88133db9a8e17f18762cd8fbc1ea89",
+        "source_file": "data/train-00022-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000057.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1d462bdf866db880600a1c83931652c457572010af3f610a8d7c396bddcecf1d",
+        "source_file": "data/train-00022-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000069.npy",
+        "n_tokens": 27166227,
+        "size_bytes": 108665036,
+        "sha256": "a6f79b9b19a6c009162f78513443d634b2f73663bfaa7dc36c4287e37766e76f",
+        "source_file": "data/train-00022-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000047.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6f8c383c4c0e31ddf18f2627c04ca431c875e8687f26e59d84c337c632456c27",
+        "source_file": "data/train-00023-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000059.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "473ded65a1b26cc8e62c76c3a2b4726cc8f40fce456da64ef441e73c4d8a0114",
+        "source_file": "data/train-00023-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000071.npy",
+        "n_tokens": 27262618,
+        "size_bytes": 109050600,
+        "sha256": "9aa90f0ab1cc46e61563189a857b9043fa2841468100729d73f781c304703205",
+        "source_file": "data/train-00023-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000073.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "e67eaf4ecd6164ffa4d96651f28ab042c73485c735fa20362184d64443d12657",
+        "source_file": "data/train-00024-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000085.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "324c8a279f7b549bcdee5a49a96bd6ee06263c85a360cdbbe2a60e94edbf99ca",
+        "source_file": "data/train-00024-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000097.npy",
+        "n_tokens": 27514776,
+        "size_bytes": 110059232,
+        "sha256": "5383f03c49bcd8d066b2931179322104e462e39d8df92da0a14a3263181cd104",
+        "source_file": "data/train-00024-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000072.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d356c51858a9d8a5c66edac8894294b16d7c3ee2470a78fb1ae363482e0dd6f1",
+        "source_file": "data/train-00025-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000084.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "45be8b948f3539f94bbe89858275f4c1718e82faf8b9de6835145ceb7329b4e0",
+        "source_file": "data/train-00025-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000094.npy",
+        "n_tokens": 27835846,
+        "size_bytes": 111343512,
+        "sha256": "a7cea905caca51a56ec57d27ee6e6ae3caff4e96123b64fe9bbc48aa8c16fe64",
+        "source_file": "data/train-00025-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000074.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "3b2a0b0905aae8cf71a163d92985efe87dc60c05f371967bc38ce0db3c5b1007",
+        "source_file": "data/train-00026-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000086.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "21c006ef5964391733edb5c969f9b35f821e41b9fb99b4a69f77419aa879e334",
+        "source_file": "data/train-00026-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000098.npy",
+        "n_tokens": 28384730,
+        "size_bytes": 113539048,
+        "sha256": "b156371ec3c13fcc959bb4d7a457d7459832d51bb7ca3cbbdcad3b79fd06bdde",
+        "source_file": "data/train-00026-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000081.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "891a363507557942ad5a76af6a3354549f30ffb6045c10d7753fecd77368b5ef",
+        "source_file": "data/train-00027-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000088.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "2c21a69495eb1dc56dba4b35285ac6acdb645254d8d6d7172eb45f4ae0194e37",
+        "source_file": "data/train-00027-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000101.npy",
+        "n_tokens": 28046425,
+        "size_bytes": 112185828,
+        "sha256": "d6af5b6f318327c683dee4b3b9bbd02caa5f574587894ec29a72f81516ed096c",
+        "source_file": "data/train-00027-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000079.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4ef253c31ad009fa55ab786b45cb7e2ac0c663c250b967963fa8dc8bef105efc",
+        "source_file": "data/train-00028-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000093.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "31360e804c74365aedcb8334234eb4aac28063e0b270c367f1ea7b4e2ad21ad8",
+        "source_file": "data/train-00028-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000106.npy",
+        "n_tokens": 28414834,
+        "size_bytes": 113659464,
+        "sha256": "784525d4fd966c144a4cfd0ca283cd9ac9b2dc840471cf5aa5500471a95dacf5",
+        "source_file": "data/train-00028-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000076.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "299c2a3febf13fe93bc4aac7bc1c2cdb63df4645b04c43f7684eb0f789b7ffe6",
+        "source_file": "data/train-00029-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000087.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "0acf68353391189bcfcd11a274a45139dfa381bec19b46dc0061462051663d3b",
+        "source_file": "data/train-00029-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000100.npy",
+        "n_tokens": 28140205,
+        "size_bytes": 112560948,
+        "sha256": "150b777c24509f4e1b1cf1ff06d56982c3def909b9be801a3bf7d0ffc3135cb6",
+        "source_file": "data/train-00029-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000077.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "de35ceb8f4b6be8b12b7a52f3ab187faa0a9c8f16c07fbb7d99089633eb40442",
+        "source_file": "data/train-00030-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000092.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "971f227a2e3d86a165ab85fb2018c0d19227628a65e4e9526ceb38599fdfd275",
+        "source_file": "data/train-00030-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000104.npy",
+        "n_tokens": 28498168,
+        "size_bytes": 113992800,
+        "sha256": "3dd0fcdf61d3d8cf0e90ef7d3d57fcf99754087b53b65b3a92be15f7ef127706",
+        "source_file": "data/train-00030-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000080.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d1139067b50c222242cb83bc35ed6793bd09eb993e6995eb88d6cfd72da99005",
+        "source_file": "data/train-00031-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000091.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "085dd0871809f841c715b8e31d34301c1319756b6a3c19f33a75c4e9a256dfee",
+        "source_file": "data/train-00031-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000103.npy",
+        "n_tokens": 28114290,
+        "size_bytes": 112457288,
+        "sha256": "8defb20bf541c6764f5fa49ccbd772ed27b03c2f16ea496a4dc8e2c4861116d4",
+        "source_file": "data/train-00031-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000082.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "26f184437a83a4942173b958909686142af272bfb1a49a17f75fd718809c71f1",
+        "source_file": "data/train-00032-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000096.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "dc92585aaa84f04d0e04679ec3d991195b6e69b937c15b3985be35398c89620a",
+        "source_file": "data/train-00032-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000107.npy",
+        "n_tokens": 28444673,
+        "size_bytes": 113778820,
+        "sha256": "8673160962af7a890833c6e46139a961da60e428c844ea22c66a475ff712fb46",
+        "source_file": "data/train-00032-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000078.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b9a426408edcd963ebca0f559eedef2e5e9c05fb7aa56ef958162abe49183f47",
+        "source_file": "data/train-00033-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000095.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ec6892a7089a7063acd9df68f84440b65b28d75c298861444a0dcfb3f11627f1",
+        "source_file": "data/train-00033-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000105.npy",
+        "n_tokens": 28165704,
+        "size_bytes": 112662944,
+        "sha256": "25e2cec372a17569782896bf5f61d73b9d6f823a2b5453a7096ec387b4d5f2b5",
+        "source_file": "data/train-00033-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000075.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6b1c341b345f0a5a2ad7f5e3b2278d60fc5ba62e8463080af8be3ad0fc019a0f",
+        "source_file": "data/train-00034-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000090.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4d7e99e57aedeadca74d0fa237b71e95318ac637df17ff7e33a31438f2247e79",
+        "source_file": "data/train-00034-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000102.npy",
+        "n_tokens": 28215214,
+        "size_bytes": 112860984,
+        "sha256": "0ae87ecc1ef56d0ae802ffca43fcf6c8507ad1a251280dc34066e31a2304eb54",
+        "source_file": "data/train-00034-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000083.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "7e4055b6549883d8c186eb4f930a4a553b24bb08a75d4dc10b441f41886f6df9",
+        "source_file": "data/train-00035-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000089.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b3d312c16404e5b3ed46f79f0a514d5afefdd316389c4288806761c3ac0864c4",
+        "source_file": "data/train-00035-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000099.npy",
+        "n_tokens": 28080425,
+        "size_bytes": 112321828,
+        "sha256": "9a0e8a41400d3bfd60ed7b349ac82549366de8520dbdd6e1dd9e20c77f46a4c2",
+        "source_file": "data/train-00035-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000108.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c7e10cc7ef925d29f9222d9d9e36eb90df3693391c32b8f4e18c16ac0f70147b",
+        "source_file": "data/train-00036-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000120.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1caceb9d42787d42ab2bb895a7e7245398640f3951c8aab70fc048bf1ec443ef",
+        "source_file": "data/train-00036-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000122.npy",
+        "n_tokens": 27972319,
+        "size_bytes": 111889404,
+        "sha256": "21dd4d639eb73e8c96c58df4100c0791390c4c1b357029775f62169cca7481aa",
+        "source_file": "data/train-00036-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000110.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4adfaf15f23654a5cd6541418f78cfaae1c623c7175aa6eb4d225b1f36cff4ab",
+        "source_file": "data/train-00037-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000123.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c8b656940b3786b7dcf1a0d925ad2706558bfb769626bb42bac74c9d4125823f",
+        "source_file": "data/train-00037-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000134.npy",
+        "n_tokens": 27704531,
+        "size_bytes": 110818252,
+        "sha256": "feab4cc52fff8b4ab6452c2132990a4a117b8e7ba31db772cf5e11551e63a910",
+        "source_file": "data/train-00037-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000109.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "069e3bec95992c83aa4a60a297ed8c1af9869df9906da42fc0f4de10a81d368d",
+        "source_file": "data/train-00038-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000121.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "0086bf5a08ec2e28387df570f16b2e144c1f2f69d3ca7140fd595c4f025a0735",
+        "source_file": "data/train-00038-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000133.npy",
+        "n_tokens": 28348559,
+        "size_bytes": 113394364,
+        "sha256": "843a58d30127b69a3df77beae7484d6c6b6b4d16361e09e513dafbc12d9dfa1d",
+        "source_file": "data/train-00038-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000114.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "07789ccd3f88423b85c8529d90e17ffa34e45e4d1351af5c71fc4e1018287ccc",
+        "source_file": "data/train-00039-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000132.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "18d3644e8cee4ac0d9d71ea09d53a7aa935d3adf5c3cf0d48f91649b3a90573c",
+        "source_file": "data/train-00039-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000143.npy",
+        "n_tokens": 27919195,
+        "size_bytes": 111676908,
+        "sha256": "9115034bbb42509d79f6d4b77fe00aa715cecd6c5492be85572cbdba141ae844",
+        "source_file": "data/train-00039-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000113.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "bfa105078ca4d2701d3568b9b587b598327a4c7ce32231262679574e93444673",
+        "source_file": "data/train-00040-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000127.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "341cfa5d0f0675ade7c4015a08b03fe289a5ecbb3e15fe6496ef5f25c3fc2a49",
+        "source_file": "data/train-00040-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000138.npy",
+        "n_tokens": 27852320,
+        "size_bytes": 111409408,
+        "sha256": "111f21eaf0ffe90f0af92a3b3fe460af9cb72ac0ad906fba536482296c597f14",
+        "source_file": "data/train-00040-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000111.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6b157c8d557226a7850ff8620e8d7da4673726803370a68812c7db4f53611383",
+        "source_file": "data/train-00041-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000124.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "feeea8a9c8b4924b7c2ce5ec9cb41be936c8db6950a5fb66e122e7a37a5fdb00",
+        "source_file": "data/train-00041-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000135.npy",
+        "n_tokens": 27963612,
+        "size_bytes": 111854576,
+        "sha256": "f1b8945e52f8ad6ca2b3d837492cc393409d1e6f364be9eb18eae88524088556",
+        "source_file": "data/train-00041-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000112.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "444ee67f949e0ad472332d719e3127801f91f6e0044d282b9ce5011cfbc68924",
+        "source_file": "data/train-00042-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000126.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1484991087ccedcc3c3859005b2c0988376c27f09c25833d12321b3fa8baadc6",
+        "source_file": "data/train-00042-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000139.npy",
+        "n_tokens": 28419855,
+        "size_bytes": 113679548,
+        "sha256": "063c51d66dbc7d656130cd0317459770ce98ae48f7161a763ae31c276bc3b1f9",
+        "source_file": "data/train-00042-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000119.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6ee8a858da5f158f97f8774d756b64a931403f2e5523f0a92f102ce12249902e",
+        "source_file": "data/train-00043-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000131.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "39970dde6714ffff25d3e990b75378e4ccefe23928d09a1317cbe1a8dadbbb82",
+        "source_file": "data/train-00043-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000140.npy",
+        "n_tokens": 28329215,
+        "size_bytes": 113316988,
+        "sha256": "2ba957fae6b188efd326fa6976413841d6603df38005a06e02262a3fb1d84ff0",
+        "source_file": "data/train-00043-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000115.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4e20317c8bb12c31c2c74ea02efde9ad9e2ad1a80585466fce35fa2924e05b00",
+        "source_file": "data/train-00044-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000125.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6344a7fdb6b30004e56bc9015147e17a8514d890fc054db733287d31fac564ac",
+        "source_file": "data/train-00044-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000136.npy",
+        "n_tokens": 28071462,
+        "size_bytes": 112285976,
+        "sha256": "f41059df7e5f0713ece89ef5bbd3ce6e0c87e2f43b0f3c6be7ca69942ecf5c0c",
+        "source_file": "data/train-00044-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000116.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "bee4b4bb2947ba19553445b29abd487e7e06883760360dec9ae2ac52a42fc5c5",
+        "source_file": "data/train-00045-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000129.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "82360a7b3afbeb476f93c6cc7d96226f213e0404385983435dc7fc8258308efe",
+        "source_file": "data/train-00045-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000142.npy",
+        "n_tokens": 28054836,
+        "size_bytes": 112219472,
+        "sha256": "78a53b38d7ea883ad589979702bb4533231181a92d1f805a9cfe48295561d2b9",
+        "source_file": "data/train-00045-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000117.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "0472ec7b8470d57752c576ba97f9a79f4e01c3a280def5c399151001d5c5e898",
+        "source_file": "data/train-00046-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000128.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "9363e7a206eea59fb5ea102f595cdb1c8601efe4d2ac670bae56b06cd5aa3f06",
+        "source_file": "data/train-00046-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000137.npy",
+        "n_tokens": 28026310,
+        "size_bytes": 112105368,
+        "sha256": "796223aec7e5454209f61e2c64319c238c85eca7b0b0d0886fddc29169888ef5",
+        "source_file": "data/train-00046-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000118.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "70049213aba0c05525fec691b6c72c4d5075e1dfe7bc060f091d78e716685905",
+        "source_file": "data/train-00047-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000130.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b1d73410cbdfd9c8d15b9713e3ec5500373305efe3a9411c33d7e325c6409e6d",
+        "source_file": "data/train-00047-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000141.npy",
+        "n_tokens": 28125129,
+        "size_bytes": 112500644,
+        "sha256": "1eecfe19846e951d0d762a7aa47f460e4ab3869fb867313d7617d516b6477ea5",
+        "source_file": "data/train-00047-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000144.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "087ca0c39ab62f0971dfc35113727cc14d261ade4c157b1dcf0652522b39b5cd",
+        "source_file": "data/train-00048-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000156.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "e151e6f6a042dc15e2b4d3a0788f45309c3bb430ee796b88f483c817b7d92353",
+        "source_file": "data/train-00048-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000160.npy",
+        "n_tokens": 27917749,
+        "size_bytes": 111671124,
+        "sha256": "25f673775ce904484366ef89a6356afc93e2b53da4ce0aaf6e1dc3be17a79543",
+        "source_file": "data/train-00048-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000145.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "707c71b06fd840b491b60ceb51f0d8b8f71a15f7cd114c8b08720e856e6f132f",
+        "source_file": "data/train-00049-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000158.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "8aeddbd7e04d5686435480ed3a502635b382edb3fa96e905d38c7e530f243bc7",
+        "source_file": "data/train-00049-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000170.npy",
+        "n_tokens": 28311439,
+        "size_bytes": 113245884,
+        "sha256": "acf04fc3c3f188f9477fe4bf8c86f4d77627f17774c6fe0602fea1aed2ba688c",
+        "source_file": "data/train-00049-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000146.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6654d36d8d11bb67b60ffa842b7515522456e03ec88d0c9f19b14b06fac650fb",
+        "source_file": "data/train-00050-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000157.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "976cafd1112ea4285c2166752bc63368f4cec76b41e706a0d7eec60bc9b5c671",
+        "source_file": "data/train-00050-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000169.npy",
+        "n_tokens": 27519653,
+        "size_bytes": 110078740,
+        "sha256": "7385f16239eb127d618d2055a51ea6cbb6823e4786f66d81ee14f8522a80fdbf",
+        "source_file": "data/train-00050-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000147.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "9674d695599277db87ba6e4dece49b1eba57094547f4397a63d8968cfa323620",
+        "source_file": "data/train-00051-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000159.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4d8fcc889fda97f07b0eda3e789d974067743f42301e6af56e6f49ea21604fae",
+        "source_file": "data/train-00051-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000171.npy",
+        "n_tokens": 27823262,
+        "size_bytes": 111293176,
+        "sha256": "35ba43c22d926e3785a47cb64a3f261d0a412e2eaeb8e55a9532ffdf493b951b",
+        "source_file": "data/train-00051-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000148.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "04970be517b6f1e146beb010d6790144ee3a4db9102531082c20450008f70263",
+        "source_file": "data/train-00052-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000161.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "3f29f3e585aba5e4d7cbe3be2e99b8b7c7eef68af80e6727abdfbc40345b5ce4",
+        "source_file": "data/train-00052-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000172.npy",
+        "n_tokens": 28155766,
+        "size_bytes": 112623192,
+        "sha256": "b145394f88e53bad47fed0c756462f0e7d564ce6a004785e2e595c9ba3b03990",
+        "source_file": "data/train-00052-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000149.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "95c297b6571c1cca6609c36ed3d4f7d6b2d2dd6bdb7586a5aa7511280ed21463",
+        "source_file": "data/train-00053-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000162.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "780ea631b3a75e2e20053f6d5cd3802f3585fbdd62aa4a3968e5691e3ef0c3f2",
+        "source_file": "data/train-00053-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000173.npy",
+        "n_tokens": 28093183,
+        "size_bytes": 112372860,
+        "sha256": "aa2a681c80095f661f87237e45b099c920e1c78eaa230afb1e21f0ef96cf7b06",
+        "source_file": "data/train-00053-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000153.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1546178f753630b403eb9f23334958b7215ca7e8cb376c0524152e3a9073b449",
+        "source_file": "data/train-00054-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000166.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "42246e27d99e9054c734e3f656be466cf2a32fc64d8a50f0328a4a37fe9a8f82",
+        "source_file": "data/train-00054-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000175.npy",
+        "n_tokens": 27949206,
+        "size_bytes": 111796952,
+        "sha256": "65c6e814504b7ba757aa3052465b9557500f6bc538fce0b08a8897d826b9e117",
+        "source_file": "data/train-00054-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000151.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b2a421c43618dbff76cbd76b9aec6717085e64cc359ae855053d5cccb90d5f8e",
+        "source_file": "data/train-00055-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000165.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "a510e09cb2a1edea083b5c947cdf7fce4069e1bf13115db91e31324d88f730bb",
+        "source_file": "data/train-00055-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000178.npy",
+        "n_tokens": 27915822,
+        "size_bytes": 111663416,
+        "sha256": "37b8e62fc1f9ad40de2c218889596ee05ac3a565e952ccd1d8f7f2dc9b741a90",
+        "source_file": "data/train-00055-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000154.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "700629ec51961f1c161f6cb1ec14c6c1761ae8bdd560409b147d2448f71f4d89",
+        "source_file": "data/train-00056-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000164.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d2e6bd8491eeda5e10f67b5a6a852b8f53fdf01fc8f9337bcb04423835fa1180",
+        "source_file": "data/train-00056-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000176.npy",
+        "n_tokens": 28064163,
+        "size_bytes": 112256780,
+        "sha256": "7a59375f6e14c57a48c64f515d82b047ed6d495dc7c3dd778e8dd4e13c456cba",
+        "source_file": "data/train-00056-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000152.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "819b4b3e4f578776ef6cbda92f7b90297f87038c48361b7d6b7e8a04f081e463",
+        "source_file": "data/train-00057-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000163.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "43f7a38d853e9eb83ee91a0f0e58e0a5dd1395464cfd742b948260f3f1cd2854",
+        "source_file": "data/train-00057-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000174.npy",
+        "n_tokens": 27974005,
+        "size_bytes": 111896148,
+        "sha256": "069317bdcd9221ff284915ff549173072af22031a0b4fcfce55bcf08f89f5865",
+        "source_file": "data/train-00057-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000150.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b73f1edd7f1d84a652460152a080b1e8fbe461d71f60950e473f863b847030bb",
+        "source_file": "data/train-00058-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000168.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "09e82041568fdcc1a77a09406fd15f2d6cf78d6b61afa1464a1d3b8c29e44f7d",
+        "source_file": "data/train-00058-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000179.npy",
+        "n_tokens": 28247470,
+        "size_bytes": 112990008,
+        "sha256": "eba090629166977f17141ce33037e04f9658a0d9d82678dbc8c0ce65473757a2",
+        "source_file": "data/train-00058-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000155.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b815cf852721f869469b6a9911bdcda361a771f7bb0d77974e4ac548714a0da1",
+        "source_file": "data/train-00059-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000167.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "fa33267f281bb94188d5a8896d9aecfc1da2d31a0f1cf6961f800a7dc7f71369",
+        "source_file": "data/train-00059-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000177.npy",
+        "n_tokens": 27582473,
+        "size_bytes": 110330020,
+        "sha256": "d824c10913efe96fe97b635bfdb5be4f9dadb1ff1d16b016951e763252794a6c",
+        "source_file": "data/train-00059-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000180.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "600d38cd50a5ecef04627bbbbfce5e334042bb7b774a877970a1ea90899715ed",
+        "source_file": "data/train-00060-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000192.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c17927af52e9a9fd955c7821c0b90f95d71e9e015e744e4d49943e3304f20356",
+        "source_file": "data/train-00060-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000197.npy",
+        "n_tokens": 28171224,
+        "size_bytes": 112685024,
+        "sha256": "0ed09c400ad184db7e2c713ee7ca32b8fefe85c764d4f4de22bbdc124edc84a1",
+        "source_file": "data/train-00060-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000181.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "5a45d9c1665f3d95f7ec379dcd04e4f3b40ba90721a448ca2a86eda6fa5a8059",
+        "source_file": "data/train-00061-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000193.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d6ba97bcf4f2b8d36c7ddb1b78ddcfa8fd3d0a56739996a03ba42d4f0b564626",
+        "source_file": "data/train-00061-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000205.npy",
+        "n_tokens": 28217963,
+        "size_bytes": 112871980,
+        "sha256": "243a9988e9241270ff8c26d729325ffb9dff432e078841744ce1c3d3fd07fb6d",
+        "source_file": "data/train-00061-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000182.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c33e4c40de591fb50ffc7829c6aa9f182da8e1f2d8381c7780a487bc96003653",
+        "source_file": "data/train-00062-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000194.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "7f2fdd5921568afd01bf87997458199d2e7d1d5f89b159dd81ff76d82a3f3870",
+        "source_file": "data/train-00062-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000206.npy",
+        "n_tokens": 27582367,
+        "size_bytes": 110329596,
+        "sha256": "8154b2633910a24a62898ed1af06b5771607448a128edd1b7dc238e023ec8b33",
+        "source_file": "data/train-00062-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000184.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ec81030aa14f2ff3ceb77218fcfaada7012697d4f66914944a16095d26bf3dcc",
+        "source_file": "data/train-00063-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000196.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "8bf3bb6dd187e5518fc4e9d1d36b276fec25301ec9a77a4d260a56fb785e34f9",
+        "source_file": "data/train-00063-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000207.npy",
+        "n_tokens": 27839503,
+        "size_bytes": 111358140,
+        "sha256": "70e9d23618235c6ad5e951d17fcce6698fbc6411284a00d323f88457e69b6593",
+        "source_file": "data/train-00063-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000183.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ab9160631c4fd5eab99419b33fa8510f06e6c1f9135c4d9917b70cd591cda608",
+        "source_file": "data/train-00064-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000195.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "db23fecda851fbc5598a086a9cc3bb43e139ab8d77de9a6b90af1d8859451d7e",
+        "source_file": "data/train-00064-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000208.npy",
+        "n_tokens": 27851153,
+        "size_bytes": 111404740,
+        "sha256": "6f67a18e20a3fd2ccfe6eb71156e698b7a1691c9d51a5e1a48c1fac43c0d6601",
+        "source_file": "data/train-00064-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000185.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "bda3f0022254db3ae83387f2809db483a12ace70452e3eedbca7a075f07c7294",
+        "source_file": "data/train-00065-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000198.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "96b6712c7e4342d27dcb669469db5e36720058334b433b221cef77bbe4e4d3a2",
+        "source_file": "data/train-00065-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000209.npy",
+        "n_tokens": 28276015,
+        "size_bytes": 113104188,
+        "sha256": "7d05f64ec0019446a6631f6ec7f3f76896a510428307f7c914cc1c399d055958",
+        "source_file": "data/train-00065-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000186.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1994fc32f680633b5a331a689b7f34d5e71dc3fb85200ab6dace6b19a2caee1e",
+        "source_file": "data/train-00066-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000202.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "7fc97e3ee4f258b3ea111260cf1ac261a6c118d4081188faa68937255347fdec",
+        "source_file": "data/train-00066-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000213.npy",
+        "n_tokens": 27997931,
+        "size_bytes": 111991852,
+        "sha256": "542448b972ec8785c29b4b63bd9b1fb370b38454a3e11341e92e85d40f45bc5d",
+        "source_file": "data/train-00066-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000187.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4bf2db9288bbf8fc2a0f73494881d56f209a6acf1426cdefdf3eae32fa764be9",
+        "source_file": "data/train-00067-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000199.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "2decc0d9397856bfd161588ff4116a542ffff8bbd0a85e2eece6e02de010d4cc",
+        "source_file": "data/train-00067-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000210.npy",
+        "n_tokens": 27731908,
+        "size_bytes": 110927760,
+        "sha256": "1c4b72273753cb7c9d3177646fb84c54f4cd1e53e84ffb3cb58c465420d3ba97",
+        "source_file": "data/train-00067-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000188.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b75c55b968b3455df6f994a212825435e5ec4be350bfafa0c6215786ec8fcd3d",
+        "source_file": "data/train-00068-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000204.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "cd8912272a278eb5831e39aac38e8981812381a266eac8755dcc9b4ed4135890",
+        "source_file": "data/train-00068-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000215.npy",
+        "n_tokens": 27875128,
+        "size_bytes": 111500640,
+        "sha256": "c7353f64d2b8820cbc61b2882a7a316d192fc55edf8e213fb3b36f86628ebcec",
+        "source_file": "data/train-00068-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000189.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b0124ce67d724649f0e1b76f633396322ac51aa6b49cf880a1f8dc9a1ea8f300",
+        "source_file": "data/train-00069-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000200.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "9026fa7e67569714d7a41a5a65161fb7768801bf7b2091e9e221e67a1c15adfd",
+        "source_file": "data/train-00069-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000211.npy",
+        "n_tokens": 28016187,
+        "size_bytes": 112064876,
+        "sha256": "8ef4b0156b2cc463fad5e8dbed397e6d9b1e004f9c08cfa7d345c362eb30f748",
+        "source_file": "data/train-00069-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000190.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "fd890daca589f3bce40a5ddda9842712e3a71e789743cfbcad175887fb9b65b1",
+        "source_file": "data/train-00070-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000203.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "244330191596b189276a7db8722d784d4b92e8ca2b4ed8a85388a4e49066d1e8",
+        "source_file": "data/train-00070-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000214.npy",
+        "n_tokens": 28444206,
+        "size_bytes": 113776952,
+        "sha256": "b28a6c62b0857f928f12a56e7825c517a0162a54f7a8ef7e69bef0f7fe1bf495",
+        "source_file": "data/train-00070-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000191.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "053a99b874edf7e425a53d04095a01577dc323d65de0dc5589b4b8057f97000f",
+        "source_file": "data/train-00071-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000201.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "051897709ea6419f74ff6bc7590e2220f875f1a1b90b4896787937c6410b822a",
+        "source_file": "data/train-00071-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000212.npy",
+        "n_tokens": 27443058,
+        "size_bytes": 109772360,
+        "sha256": "27a3ede0ecb0126e6846d2cc91a21aea46e38037208dae292e85f66618b36a0e",
+        "source_file": "data/train-00071-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000216.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "bbb2fa80edff21529a3c8ffe49449c3c555a6ae1bd04e18a9f775d3d3e1e1eda",
+        "source_file": "data/train-00072-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000228.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "8b2c54a4589823ee65941ac1ba970fbf5d20393bdd953c23b9dae8cfd5ca27c9",
+        "source_file": "data/train-00072-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000234.npy",
+        "n_tokens": 28149937,
+        "size_bytes": 112599876,
+        "sha256": "df0c5884253bce86dc041b79f1251714b3cadd1bc8fb86a34750397540e2af27",
+        "source_file": "data/train-00072-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000217.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "dab79112e5e762a5eb585a1980e4166431d0b3e2a3d3ede0f73090ceb66387b7",
+        "source_file": "data/train-00073-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000229.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "986dbbd38393e68b9d04277a2525bf62ea5c3da7a0f238d41bd9670dfbc76b66",
+        "source_file": "data/train-00073-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000242.npy",
+        "n_tokens": 28237658,
+        "size_bytes": 112950760,
+        "sha256": "25e51fd17196d30dab99c9759dcb47d535aeffa60c22b7dbb93238836b58742d",
+        "source_file": "data/train-00073-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000218.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "7e56ca1bd3e9d0fcba473f329ac69b4192835840e8b703486d9a3d09d5bfe1e5",
+        "source_file": "data/train-00074-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000231.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "bc683edadd9f08a0271d9afafe49e606e342fe450fbda013654f23d7890f39d9",
+        "source_file": "data/train-00074-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000243.npy",
+        "n_tokens": 27664360,
+        "size_bytes": 110657568,
+        "sha256": "69c4b7b572c4fa6d80dd69ce6c8bb0c8a516448e8e0f6d08e5c313411c717214",
+        "source_file": "data/train-00074-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000220.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ec2411e47e48ab10a103d7c0c94957598af33da6a6c04f18b9e1a3ae918abffd",
+        "source_file": "data/train-00075-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000232.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "a2ac3e719262fb15fae7081b5aed36525eb2946e243449aa49bd663d7c4a1548",
+        "source_file": "data/train-00075-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000244.npy",
+        "n_tokens": 27864134,
+        "size_bytes": 111456664,
+        "sha256": "07eceaf6fc44f9761e997a0016180d450f251ae96e9fc3caebc07ec6343f88a2",
+        "source_file": "data/train-00075-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000219.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "fae53f3ab2aa78353bc05fca7779625b99134a2950900e038d4eed6a14a9a076",
+        "source_file": "data/train-00076-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000230.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "276e2afe92404803ec29c961a4c9ddd1eff39a4b3ceb9583310e5db92894e089",
+        "source_file": "data/train-00076-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000241.npy",
+        "n_tokens": 27946722,
+        "size_bytes": 111787016,
+        "sha256": "4acfbd7dc6f87a4042dabd0af97204f6599342c43b3df0c7228029b567dc8fb0",
+        "source_file": "data/train-00076-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000221.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "95f1894cf85175148f8adf6e6019c52b261122f21bfa9f49694f7bca033513fd",
+        "source_file": "data/train-00077-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000233.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ef8109c7e4e9e0de0ad3ec5c5727471b873d213498d30e086696f6b6d7748525",
+        "source_file": "data/train-00077-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000245.npy",
+        "n_tokens": 28071928,
+        "size_bytes": 112287840,
+        "sha256": "8eb0995d7d0f688b1822446621cf884f945d78fbd3877de73d41b7cb0f74d3aa",
+        "source_file": "data/train-00077-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000222.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "59deeb3b41c6313c1edbc2e4652c44115a4b0758de2548476bafedc8f8345277",
+        "source_file": "data/train-00078-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000235.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "e784da19ab21a77346febd37d548786da28b393830bff4a1b2d0d5e46e6c587d",
+        "source_file": "data/train-00078-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000246.npy",
+        "n_tokens": 27781970,
+        "size_bytes": 111128008,
+        "sha256": "9c8bb395cbdd7f3ee9d189781657a3a357a2adb74a9c58755ba0ba88dabe04f8",
+        "source_file": "data/train-00078-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000224.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "911c3ebdb8f9e7c54bcd43587cbd995d8cfaebd3cf6c178e41ff199d9ae7bca8",
+        "source_file": "data/train-00079-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000236.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "98788823691263758725431dfdfba343a75bfffd2d26433c78111a5e9a11e09a",
+        "source_file": "data/train-00079-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000247.npy",
+        "n_tokens": 27732015,
+        "size_bytes": 110928188,
+        "sha256": "b1b4a442c659562447edf959dc4a29399840d28e0f2aeef8f67e6565918e368f",
+        "source_file": "data/train-00079-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000226.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "273a3d42dcc961478183d28d47cee39c739b0806dd5a6197a54fae013ccf9bb9",
+        "source_file": "data/train-00080-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000239.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "edc072b25e7dd671583988fefdc889d89726435b2f0d9aa275f8cea62abfc0da",
+        "source_file": "data/train-00080-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000250.npy",
+        "n_tokens": 28297316,
+        "size_bytes": 113189392,
+        "sha256": "3a8b63ad05e43045647ce3769e9d1b1ccdcf04c0a7bb70ca9eef18f13f004063",
+        "source_file": "data/train-00080-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000225.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "fa4beec671760fa89b1945ccd7f1cc958292233d5a9fde9962c0dcbb24d37b84",
+        "source_file": "data/train-00081-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000240.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4c8b32f70aa989cb67e03b06ddcc362d35f9a77b625a4988f257994dceb465a1",
+        "source_file": "data/train-00081-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000251.npy",
+        "n_tokens": 27735089,
+        "size_bytes": 110940484,
+        "sha256": "193aebe1511c4b6a7d48d2b58bcac2c03475f44ac873a8c507a297d107208878",
+        "source_file": "data/train-00081-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000223.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4e60b91a6e1c16c26963d70d98f333f84f1c27e600f2e636a7ab72e252cd09b9",
+        "source_file": "data/train-00082-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000238.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "38bd47df0809d07d4c53881aefe49570d0062357a9b5166b8cbb7d327e69d8d3",
+        "source_file": "data/train-00082-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000249.npy",
+        "n_tokens": 28014483,
+        "size_bytes": 112058060,
+        "sha256": "9482d2b1923264415135239b9b51ae5e5e73dee58477c7a88ce7f30b16c64cc5",
+        "source_file": "data/train-00082-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000227.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d19c49169f2121ae2850d4d1c3220185838ac78175099ed5b09bb58706b8ba57",
+        "source_file": "data/train-00083-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000237.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "9493451f3391d228cb7a9e32bd62c0a82d884e0ad4f65671b1ab0a996a7b3489",
+        "source_file": "data/train-00083-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000248.npy",
+        "n_tokens": 27696525,
+        "size_bytes": 110786228,
+        "sha256": "bf7bd547e927b472983d7b2e7d2283a50d1aa147a397e22e3dc1b34740782fcd",
+        "source_file": "data/train-00083-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000252.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "a896771c09ef8a02319fd1cb029734cc120a3c6a187e068e53d3fdfbdbb31491",
+        "source_file": "data/train-00084-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000264.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6a8d97d4ef6e1dd2790195d2f4945fa0d456b2414a7736db746a60b1a0557f15",
+        "source_file": "data/train-00084-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000269.npy",
+        "n_tokens": 27857951,
+        "size_bytes": 111431932,
+        "sha256": "d86a1335b5806e677c4027dd913cc2435cdbea315537daad4097156255f7e5f4",
+        "source_file": "data/train-00084-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000254.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "3d9ffa053c67b7cd19dc0ead279a5d0b1fdd995daf07295d2c079a5d5453e3df",
+        "source_file": "data/train-00085-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000265.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6f07c9362fcae7fc9d933a19ba8e3e0804ed5cee30c742f3099e8c3437c57ed0",
+        "source_file": "data/train-00085-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000277.npy",
+        "n_tokens": 28043122,
+        "size_bytes": 112172616,
+        "sha256": "cfccfe6e55c62c1033c2467ab6c4f513290c70a2264d9568bca4bef25b2b8476",
+        "source_file": "data/train-00085-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000253.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "240b68cd7e0c5cf1a551ba7edb6b9bc5e2cf052022f2c7fb1774254b8c161820",
+        "source_file": "data/train-00086-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000266.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ea986bc9990fb6d233cb2552d3484ff68e5db1afc824aac1155a5657ca261add",
+        "source_file": "data/train-00086-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000278.npy",
+        "n_tokens": 28219722,
+        "size_bytes": 112879016,
+        "sha256": "85060519f3e323f80dd6d152ec7847bfa4e4ed964ad2e46da3f13322d88149b0",
+        "source_file": "data/train-00086-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000255.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "cff8836ae9bad5b5287a9b65cb14a7aeaac7e4b63d5c9ebbf1743c996150cc82",
+        "source_file": "data/train-00087-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000267.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "39bc3826de0a04efaa53af64ea4adab97c40f15d6822979341de7dfcd8d4efab",
+        "source_file": "data/train-00087-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000279.npy",
+        "n_tokens": 27996823,
+        "size_bytes": 111987420,
+        "sha256": "986f9c3588cb8d3ce2bac5a0d7e92aa1bbf79622f6313279c42656842e6a0396",
+        "source_file": "data/train-00087-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000258.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "aa0ae7d898f470c5ec267091074666d50de71670635947efbb20f139bfbdc8a1",
+        "source_file": "data/train-00088-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000270.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "e018c1a6d147c5b02afd8def26dc5fcc94ae3ec4484ab470e96d23b9c8214f30",
+        "source_file": "data/train-00088-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000281.npy",
+        "n_tokens": 27812819,
+        "size_bytes": 111251404,
+        "sha256": "f5e8b1e5d8a8cfe7e89bedaaf117f531dfdb1af60bdf2810339f03467dfed52e",
+        "source_file": "data/train-00088-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000257.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "b57c92e10ab00d3d729b3f15f913eb96d8c8aa9999cfa7d80070e454011e606d",
+        "source_file": "data/train-00089-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000271.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "229e41f008584d903ac6a5e25d835900afbeef69b25090d281991aff906353a9",
+        "source_file": "data/train-00089-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000282.npy",
+        "n_tokens": 28045035,
+        "size_bytes": 112180268,
+        "sha256": "74373dc8802a44450e9691a4f3520a3789dd5eaa4c3278cd3d21987744a486fc",
+        "source_file": "data/train-00089-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000256.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ebf18638d7d97785e9d11e85760871d015f2f7a4f8b06dc763167a378c1ddc19",
+        "source_file": "data/train-00090-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000268.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c1451d16414884ae0c9d3f73f194396456e8711c979b59ba30a8effec3c8d53c",
+        "source_file": "data/train-00090-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000280.npy",
+        "n_tokens": 28025164,
+        "size_bytes": 112100784,
+        "sha256": "ef63690c94702d156f9eaa54a43b6c5cc13e1f6bf481d16864bd0028f201b62a",
+        "source_file": "data/train-00090-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000260.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "3d3cbeb8cfebf1b96325ebb275c82a56b31223ceeb301f8286ed10e61d221ea9",
+        "source_file": "data/train-00091-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000275.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6a0a8b1e8fa8ba18c10644e2757e37246a6f643e28b6a81ef9e66382308990f3",
+        "source_file": "data/train-00091-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000285.npy",
+        "n_tokens": 27864322,
+        "size_bytes": 111457416,
+        "sha256": "bd6e5fec8ca7a83a05243d65cead850cbf3640082e40acf4f4ce64abe364ee5d",
+        "source_file": "data/train-00091-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000261.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4bf8640bf9a90ff0f33ce1aa3e7bf506c740c4de895c4fedf41978d495926dc3",
+        "source_file": "data/train-00092-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000274.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "cb1ce7267474a600e60d403bea97965d08490962c0b755f36f262aeb0e9dfa96",
+        "source_file": "data/train-00092-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000286.npy",
+        "n_tokens": 27853112,
+        "size_bytes": 111412576,
+        "sha256": "817042f6c9e53ad6ca984ec83ac1b6f8b46ac1690546ea0108129bdd1c349b5d",
+        "source_file": "data/train-00092-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000259.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "e6d70b3f80aeee633ff71a77f01c2b8cb028e748235580588afe17dd1849bf37",
+        "source_file": "data/train-00093-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000272.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "8d1df905f70b46eca8b5b90ea1a06426dcc4d1d980cad7785e66be97b59df6e6",
+        "source_file": "data/train-00093-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000284.npy",
+        "n_tokens": 27764664,
+        "size_bytes": 111058784,
+        "sha256": "00cf7fe8210d9f0bdb73a5b60990c73c23bc9a5ae4862a3db621391412cdbaf8",
+        "source_file": "data/train-00093-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000262.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "a7b7ebeb70ce93923a58eaad955ab374397828b9c4be07d0a64445b41cca0c59",
+        "source_file": "data/train-00094-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000273.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "38dab36c74bfcac55075a0fc3f6f19c533f0daa9fd0f2a18f04da8635e800d62",
+        "source_file": "data/train-00094-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000283.npy",
+        "n_tokens": 27599911,
+        "size_bytes": 110399772,
+        "sha256": "20e273a72e81795559e71626ad3ac1238476f6f8881c9c36d355d566189c21a5",
+        "source_file": "data/train-00094-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000263.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "930399e6df2b5549f4da6174887501d0f24b49407c6090971fea9563790d70e1",
+        "source_file": "data/train-00095-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000276.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "4452c758433fd183d599f3fb109ee12358ec8428a14f66c391154064d5092a10",
+        "source_file": "data/train-00095-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000287.npy",
+        "n_tokens": 27952800,
+        "size_bytes": 111811328,
+        "sha256": "1ab695a21d607f82bceec508c952ffb403e45adcaa3b1b881e79c8af7ff9cbbb",
+        "source_file": "data/train-00095-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000288.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "cecdf3c8f1e9974a4e88293eabb6e2c56d81824fc07b6e2e6f665c68ef1f013a",
+        "source_file": "data/train-00096-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000300.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "a26bc177b2425a9ed15809a6c3905278db85d1ee95e551bc563a684799e6df6d",
+        "source_file": "data/train-00096-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000305.npy",
+        "n_tokens": 28158503,
+        "size_bytes": 112634140,
+        "sha256": "9d57d5df6f369fe4b0964c81c34dee1700d3c1bf5983a76a8d4ff293e93a660e",
+        "source_file": "data/train-00096-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000289.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "459487e7382b1bca2de751fabf233cf2740180ae193fd312cdd3879ee9eee936",
+        "source_file": "data/train-00097-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000301.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "0996115acbc4f6caa8cb7977a13dc410f76f25e29d89fb1a98e85e21120af9b4",
+        "source_file": "data/train-00097-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000312.npy",
+        "n_tokens": 27545352,
+        "size_bytes": 110181536,
+        "sha256": "e8945a7787918e30aa5eb8e04f6922b133d3bcd1f18654014a37d7ccb2dfc30d",
+        "source_file": "data/train-00097-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000290.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d7fc3519303fd68397a6d8d5013f38cf384cafbd569f9a3abac3d3441333515e",
+        "source_file": "data/train-00098-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000303.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "f01fbb3b338dfdaca250028eaa621c9b5602c7f8c0feeda1c30d52988fad18c6",
+        "source_file": "data/train-00098-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000315.npy",
+        "n_tokens": 27823804,
+        "size_bytes": 111295344,
+        "sha256": "ec4fcdb7e86288183ab73b3ba50ef41fc435050ce8941701544064adbe2e4c83",
+        "source_file": "data/train-00098-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000291.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "46034fcce3fd40a0eaba1617d97b36fc160f53cec0ba0a8c86de8495b8c18d9d",
+        "source_file": "data/train-00099-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000302.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d06877ab8daab7504ce116229533702cad46bf5d84f174948e83572e89f5472a",
+        "source_file": "data/train-00099-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000313.npy",
+        "n_tokens": 27663691,
+        "size_bytes": 110654892,
+        "sha256": "40471ca8c8374745647dc3dfbb4c0bde1e23ebbbcb526dee2b7f9893b2032329",
+        "source_file": "data/train-00099-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000292.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "28e90da20ac848b8a175a26ecb64cac3dd5b89d514015c6aa70c514efae87f3f",
+        "source_file": "data/train-00100-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000304.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "a38c1669570463e9aec41d7542372209c85d8980ca4cadd014194a84cab7864e",
+        "source_file": "data/train-00100-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000317.npy",
+        "n_tokens": 27904353,
+        "size_bytes": 111617540,
+        "sha256": "a4e8870177f16c570f202e545da94e204935bda7fafc9f25a14e400a5947a3d6",
+        "source_file": "data/train-00100-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000294.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1203a781ad570225b366e18869527f6d30e59d24995935f107ccdec490ebe23e",
+        "source_file": "data/train-00101-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000307.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1407ebd50dc60b39f2634ac3196cf34f14e3ba9dbd02c02365ecb1e65a9589bb",
+        "source_file": "data/train-00101-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000319.npy",
+        "n_tokens": 28181713,
+        "size_bytes": 112726980,
+        "sha256": "ece9024009fc1693874fbb0ebec6d3e671eb1e379939ad0571391e831904b907",
+        "source_file": "data/train-00101-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000293.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "0d45b4a5eab8bc14086ba3d1c5e7df787ef6a76a5b40b07b76f743efb6ac8e89",
+        "source_file": "data/train-00102-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000306.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "83f062cba6dec1949cf0121634a05676cbe210afe2af63e73a71a86e9fca9b59",
+        "source_file": "data/train-00102-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000316.npy",
+        "n_tokens": 27874514,
+        "size_bytes": 111498184,
+        "sha256": "2a7fd6633cc0b4e236644b5df403f773d6c553af117ba321369300a1fd15b6f4",
+        "source_file": "data/train-00102-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000296.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d14577becbd9beb8da56da4d9d1af962f7c25e1c94bd7eb7772967a183905fea",
+        "source_file": "data/train-00103-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000308.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "8b58ce2ee0cfbe2a6f864d7527578d3c2d1d92a3626cd9115cbbfd071a6ae872",
+        "source_file": "data/train-00103-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000321.npy",
+        "n_tokens": 28066918,
+        "size_bytes": 112267800,
+        "sha256": "7945f0e0a8cd53d7f3d0b720a3fcef4419fbe7f165f37b4fed5dca2eb97b3c75",
+        "source_file": "data/train-00103-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000295.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "c9240dfecd41d56395113c14aa30f1072ee0f846cfb8f7b8fe7b9ee95dc5243c",
+        "source_file": "data/train-00104-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000310.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "065b4e7999160472198e26ca7e0fb306070fbfa79fdd484ecdc22c4e84c09e3d",
+        "source_file": "data/train-00104-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000318.npy",
+        "n_tokens": 27982670,
+        "size_bytes": 111930808,
+        "sha256": "24457097743ceec7276a59958d7b8af881295b5fbb6b10eee2b034be93a666ee",
+        "source_file": "data/train-00104-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000297.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "f5f69b12ae7ba23ad84a919a8d86ee8052d5cb05162939622581521a3f2bf5a1",
+        "source_file": "data/train-00105-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000309.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "5b7edf9b9ef450db465ea086db2adcc85af8061b5d0e3bfe1257796148210fec",
+        "source_file": "data/train-00105-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000320.npy",
+        "n_tokens": 27800035,
+        "size_bytes": 111200268,
+        "sha256": "d1c9d1236dec54a346bbbfe7f1787978a4cf089c792e8ee51c7b00ca324ad0b6",
+        "source_file": "data/train-00105-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000298.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "e92a4b89428ce15f310b44505d41f0e51e0d03765ff1ef9e506873a4482c8064",
+        "source_file": "data/train-00106-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000311.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "2b58ceada3ebe69a5f5bd539c66c4a975b89d43b9d49598de8427cc4eb8b2265",
+        "source_file": "data/train-00106-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000322.npy",
+        "n_tokens": 27901713,
+        "size_bytes": 111606980,
+        "sha256": "be68432e3815f6c55ae062cdc0979f2db333a3b4403cf8c5fb59205ead3f6120",
+        "source_file": "data/train-00106-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000299.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "11487ec8679378cda9c065463d8983866f1c514ce54f691c528b4d93dd7fef43",
+        "source_file": "data/train-00107-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000314.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6b3c707f90512165b669f95f800f74d3604174929a75b026119549d1b7d7566a",
+        "source_file": "data/train-00107-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000323.npy",
+        "n_tokens": 27952903,
+        "size_bytes": 111811740,
+        "sha256": "64d29e4bf3bcee5db54dde0e2825c0de0b81db9d56dd56547122d9a521cc991b",
+        "source_file": "data/train-00107-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000324.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "f083af87a769b1459a6512a10f1adf764166d81a8706647cd63d3657d13250ec",
+        "source_file": "data/train-00108-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000345.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d2a9de3ac7ebb16b63044d9024f3bbf4687bb4545610e271a99cfd4363d6b6d2",
+        "source_file": "data/train-00108-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000348.npy",
+        "n_tokens": 28045864,
+        "size_bytes": 112183584,
+        "sha256": "0f2c0fb3518d28ae873b870565847a2b74cfc77f7b2087fb98a05b4cb359bf7c",
+        "source_file": "data/train-00108-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000325.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "65a0ac7255c17a20818533ced68a9a8e84d836922659465f3f736cf96d777034",
+        "source_file": "data/train-00109-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000346.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "ffa337494579483108d4ef415c15bf2fbd6379a1c79d546fbc1fc007cf53f87f",
+        "source_file": "data/train-00109-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000349.npy",
+        "n_tokens": 28149514,
+        "size_bytes": 112598184,
+        "sha256": "ba838a6609f4242b734c20893f34cedada4f099e9b030982718a85ddfc300a15",
+        "source_file": "data/train-00109-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000326.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "29a051ebc425a50b991b5065bfe9a9bd49f8e4036ef360f1cd758ae3bdada89a",
+        "source_file": "data/train-00110-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000335.npy",
+        "n_tokens": 22748176,
+        "size_bytes": 90992832,
+        "sha256": "c94f53f7ffd020e59d70f3005ed85fc5497525614c213f1da93882329fc851e8",
+        "source_file": "data/train-00110-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000327.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "6209563d98a6abe357c441ddeca7ac394897b9e7b4f6a31c255a4b52b0ebc8ba",
+        "source_file": "data/train-00111-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000336.npy",
+        "n_tokens": 22764146,
+        "size_bytes": 91056712,
+        "sha256": "8d715242c866b432498b930beec044c6b7e9be565477312548b59e01ed7bafab",
+        "source_file": "data/train-00111-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000328.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "bef94cd43d7190c743a054efda562f40d122013571acd50ab09ba316447dbc4d",
+        "source_file": "data/train-00112-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000338.npy",
+        "n_tokens": 22734463,
+        "size_bytes": 90937980,
+        "sha256": "152b6c5d9fa2e026a96603e86d7703864a26fd3e9ea1c8b63c086f00e02b3205",
+        "source_file": "data/train-00112-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000329.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "447f4cf10d37701f1edc513528c9ea842599db7549af0a0e05817c232b7e4920",
+        "source_file": "data/train-00113-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000339.npy",
+        "n_tokens": 22993014,
+        "size_bytes": 91972184,
+        "sha256": "da2039559ec291da3468cce65f3bf0ef1dbcf5ea027da44fabc1eb53e6cbd259",
+        "source_file": "data/train-00113-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000331.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "39048c3109533ab0662a3cff01731bb66c51cc9bc19ac0f88a263822500473ad",
+        "source_file": "data/train-00114-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000342.npy",
+        "n_tokens": 22592367,
+        "size_bytes": 90369596,
+        "sha256": "c911db4781fdffaa9abb646ddfd6499d48072fd7c48878eaea00d73c367d7423",
+        "source_file": "data/train-00114-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000332.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "afb48b994e3aa138205cd7eabecf3d96389c1f0cb3fdd3d30f35e0353ccb0887",
+        "source_file": "data/train-00115-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000340.npy",
+        "n_tokens": 22947042,
+        "size_bytes": 91788296,
+        "sha256": "6d4c9a3408d50ce52a543ecedf9f1cf2915ffdc40f00a8fe05fdedbdd10aa190",
+        "source_file": "data/train-00115-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000334.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "1e71c6c0dabf10ae023390e534e992fd1dc241f0177f3666dd3895c5b68f4829",
+        "source_file": "data/train-00116-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000344.npy",
+        "n_tokens": 23542741,
+        "size_bytes": 94171092,
+        "sha256": "75b291865b2e38632628a6ca3795fb7d58d4f52f8f73bc3ab5c73f03495a7f71",
+        "source_file": "data/train-00116-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000330.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "20adb2136aedb87b8c0b01a9afed849cc72dfd5790ca2f5cdd1378dfe89732ec",
+        "source_file": "data/train-00117-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000341.npy",
+        "n_tokens": 22440670,
+        "size_bytes": 89762808,
+        "sha256": "bdec50e8a248dabaf50f7a2bf643ff28092530680240bca77a19076131f1d603",
+        "source_file": "data/train-00117-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000333.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "843ea684165b41a0a077368252aeaf0b42c3f9dd3dcfc0a13af0e0aaa0e4f097",
+        "source_file": "data/train-00118-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000343.npy",
+        "n_tokens": 23141278,
+        "size_bytes": 92565240,
+        "sha256": "2934394740fb7c419a20e641723e9f9c052f980da69311db4f6f22c88a982399",
+        "source_file": "data/train-00118-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000337.npy",
+        "n_tokens": 67108864,
+        "size_bytes": 268435584,
+        "sha256": "d0f47d2dabe40e45a623d35d3b3e6609b11fd62338c97aef28f083c64e6ee146",
+        "source_file": "data/train-00119-of-00120.parquet",
+        "packed_scope": "source_file"
+      },
+      {
+        "key": "dataset/openthoughts3-1.2m/shards/part-000__shard_000347.npy",
+        "n_tokens": 23073053,
+        "size_bytes": 92292340,
+        "sha256": "a254993bf7c0180aa76a45c299d9b6c0ccdd718ccf9140d30ddab761c9d36dd6",
+        "source_file": "data/train-00119-of-00120.parquet",
+        "packed_scope": "source_file",
+        "contains_final_remainder": true
+      }
+    ]
+  }

@@ -1,0 +1,80 @@
+plugins:
+  - axolotl.integrations.cut_cross_entropy.CutCrossEntropyPlugin
+
+cut_cross_entropy: true
+
+base_model: jefout/6_29_base
+
+trust_remote_code: true
+tokenizer_config: jefout/6_29_base
+
+datasets:
+  - path: ../openthought_1M_hf
+    type:  # pretokenized: input_ids, attention_mask, labels (2048)
+
+# Required for multi-GPU: without this, every FSDP rank re-tokenizes and re-saves
+# the full 1M dataset (~2 min/rank). With it, ranks load from disk after rank-0 prep.
+dataset_prepared_path: last_run_prepared
+dataset_num_proc: 64
+val_set_size: 0.0
+output_dir: ./outputs/6_28_fft_openthought_1M_lr5e-6_batch256_warmup500
+
+sequence_len: 2048
+sample_packing: false
+
+train_on_inputs: true
+group_by_length: false
+
+# adapter:
+# lora_model_dir:
+# lora_r:
+# lora_alpha:
+# lora_dropout:
+# lora_target_linear:
+
+# 8× B200
+micro_batch_size: 32
+gradient_accumulation_steps: 1
+num_epochs: 1
+
+bf16: true
+tf32: true
+gradient_checkpointing: false
+
+learning_rate: 5e-6
+lr_scheduler: cosine # constant_with_warmup # linear
+warmup_steps: 500
+weight_decay: 0.01
+optimizer: adamw_torch_fused
+max_grad_norm: 1.0
+
+logging_steps: 1
+save_steps: 100
+save_total_limit: 100
+eval_strategy: "no"
+
+attn_implementation: flash_attention_2
+dataloader_pin_memory: true
+dataloader_num_workers: 8
+
+seed: 42
+
+fsdp_version: 2
+fsdp_config:
+  # Rank 0 loads weights once; other ranks use meta + broadcast (avoids 8× disk reads).
+  cpu_ram_efficient_loading: true
+  sync_module_states: true
+  offload_params: false
+  state_dict_type: FULL_STATE_DICT
+  auto_wrap_policy: TRANSFORMER_BASED_WRAP
+  transformer_layer_cls_to_wrap: JefqwenDecoderLayer
+  # false = keep params gathered after forward; faster backward when VRAM headroom exists.
+  reshard_after_forward: false
+  activation_checkpointing: true
+
+wandb_project: "fft-new-6_28"
+wandb_entity: "jeffrey0"
+wandb_watch: "false"
+wandb_name: "openthought_1M_lr5e-6_batch256_warmup500_newconfig_mostrecent"
+wandb_mode: "online"
+

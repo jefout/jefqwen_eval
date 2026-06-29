@@ -1,0 +1,34 @@
+[project]
+name = "model-eval"
+version = "0.1.0"
+description = "Local CE evaluation for Jefcoder / Jefqwen checkpoints"
+readme = "readme_venv.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate",
+    "httpx",
+    "numpy",
+    "safetensors",
+    "torch<=2.10",
+    "transformers",
+]
+
+[project.optional-dependencies]
+jefqwen = [
+    "causal-conv1d>=1.6.0",
+    "flash-linear-attention @ git+https://github.com/jefout/jefqwen-flash-linear-attention.git@84ad1cc5a7428609d7e0e56d4041a775cd19b7bb",
+]
+
+[project.scripts]
+model-eval = "model_eval.local_eval_fast:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = [".."]
+include = ["model_eval"]
+
+[tool.setuptools.package-data]
+model_eval = ["eval/*.json"]

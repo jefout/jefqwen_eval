@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "n_sequences": 32,
+  "seq_len": 2048,
+  "batch_size": 8,
+  "lm_head_chunk": 512,
+  "datasets": [
+    {
+      "name": "automathtext-v2",
+      "short_name": "auto",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/automathtext-v2",
+      "shard_ids": [5754, 17262, 28770, 40278]
+    },
+    {
+      "name": "other",
+      "short_name": "other",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/other",
+      "shard_ids": [0],
+      "sequence_quarters": true,
+      "quarters": 4
+    },
+    {
+      "name": "ultradata-math",
+      "short_name": "ultra",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/ultradata-math",
+      "shard_ids": [273, 375, 742, 1157]
+    },
+    {
+      "name": "finewebedu",
+      "short_name": "fineweb",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/finewebedu",
+      "shard_ids": [301, 903, 1506, 2108]
+    },
+    {
+      "name": "nemotron-specialized-v1.1",
+      "short_name": "nemotron",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/nemotron-specialized-v1.1",
+      "shard_ids": [21, 42, 55, 67]
+    },
+    {
+      "name": "nemotron-specialized-v1.2",
+      "short_name": "nemotron",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/nemotron-specialized-v1.2",
+      "shard_ids": [37, 74, 96, 110]
+    },
+    {
+      "name": "nemotron-cc-math-v1-4plus-mind",
+      "short_name": "nemotron_cc_math",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/nemotron-cc-math-v1-4plus-mind",
+      "shard_ids": [123, 427, 742, 1100]
+    },
+    {
+      "name": "openthoughts3-1.2m",
+      "short_name": "openthoughts3",
+      "manifest_url": "",
+      "public_base": "",
+      "dataset_dir": "eval_datasets/openthoughts3-1.2m",
+      "shard_ids": [46, 175, 283, 327]
+    }
+  ]
+}
